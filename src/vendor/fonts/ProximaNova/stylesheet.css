@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('ProximaNovaCond-Regular.eot');
+	src: local('Proxima Nova Condensed Regular'), local('ProximaNovaCond-Regular'),
+		url('ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Regular.woff') format('woff'),
+		url('ProximaNovaCond-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Regular.woff') format('woff'),
+		url('ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+

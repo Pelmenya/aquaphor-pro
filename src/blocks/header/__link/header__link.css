@@ -1,0 +1,18 @@
+.header__link {
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 42px;
+}
+
+.header__link:last-child{
+  margin-right: 0px;
+}
+
+

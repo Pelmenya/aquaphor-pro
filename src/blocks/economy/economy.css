@@ -1,0 +1,19 @@
+@import url(./__description/economy__description.css);
+@import url(./__parameter/economy__parameter.css);
+@import url(./__parameters-container/economy__parameters-container.css);
+@import url(./__parameters/economy__parameters.css);
+@import url(./__text/economy__text.css);
+@import url(./__text-item/economy__text-item.css);
+@import url(./__pictures-container/economy__pictures-container.css);
+@import url(./__big-pic/economy__big-pic.css);
+@import url(./__small-pic/economy__small-pic.css);
+
+.economy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 128px;
+  width: 100%;
+  max-width: 1108px;
+  align-items: flex-start;
+}

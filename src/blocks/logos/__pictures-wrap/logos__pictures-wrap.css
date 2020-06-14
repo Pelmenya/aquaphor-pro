@@ -1,0 +1,10 @@
+.logos__pictures-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 77px;
+  padding-right: 114px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

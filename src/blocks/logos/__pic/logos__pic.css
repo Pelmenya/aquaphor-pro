@@ -1,0 +1,9 @@
+.logos__pic {
+   height: 29px;
+
+}
+
+.logos__pic:first-of-type {
+  height: 23px;
+}
+

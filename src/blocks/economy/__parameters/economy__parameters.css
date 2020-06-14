@@ -1,0 +1,5 @@
+.economy__parameters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

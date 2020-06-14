@@ -1,0 +1,14 @@
+.title {
+  max-width: 900px;
+  font-family: Proxima Nova Rg;
+  font-size: 72px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: var(--white);
+  margin-top: 268px;
+  text-transform: uppercase;
+}

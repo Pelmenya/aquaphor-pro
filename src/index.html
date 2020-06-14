@@ -16,7 +16,7 @@
  <div class="page">
     <header class="header">
       <div class="header__wrap">
-        <a href="index.html">
+        <a href="index.html" class="header__logo-link">
           <svg class="header__logo" id="Layer_1" x="0px" y="0px"
             viewBox="0 0 500 160" style="enable-background:new 0 0 500 160;" xml:space="preserve">
             <style type="text/css">
@@ -74,8 +74,41 @@
           </div>
       </div>
     </header>
-    <!--main class="main">
-    </main-->
+    <main class="main">
+      <section class="logos">
+        <h1 class="title">профессиональные системы водоочистки</h1>
+        <h2 class="sub-title sub-title_logos">коммерческий обратный осмос от 99,990 руб.</h2>
+        <div class="logos__pictures">
+          <div class="logos__pictures-wrap">
+            <picture>
+              <source media="(max-width: 400px)" srcset="<%=require('./images/nalco.png')%>"/>
+              <source media="(max-width: 800px)" srcset="<%=require('./images/nalco@2x.png')%>"/>
+              <img class="logos__pic" src="<%=require('./images/nalco@3x.png')%>" alt="">
+            </picture>
+            <picture>
+              <source media="(max-width: 400px)" srcset="<%=require('./images/hydroo.png')%>"/>
+              <source media="(max-width: 800px)" srcset="<%=require('./images/hydroo@2x.png')%>"/>
+              <img class="logos__pic" src="<%=require('./images/hydroo@3x.png')%>" alt="">
+            </picture>
+            <picture>
+              <source media="(max-width: 400px)" srcset="<%=require('./images/ge.png')%>"/>
+              <source media="(max-width: 800px)" srcset="<%=require('./images/ge@2x.png')%>"/>
+              <img class="logos__pic" src="<%=require('./images/ge@3x.png')%>" alt="">
+            </picture>
+            <picture>
+              <source media="(max-width: 400px)" srcset="<%=require('./images/abb.png')%>"/>
+              <source media="(max-width: 800px)" srcset="<%=require('./images/abb@2x.png')%>"/>
+              <img class="logos__pic" src="<%=require('./images/abb@3x.png')%>" alt="">
+            </picture>
+            <picture>
+              <source media="(max-width: 400px)" srcset="<%=require('./images/grundfos.png')%>"/>
+              <source media="(max-width: 800px)" srcset="<%=require('./images/grundfos@2x.png')%>"/>
+              <img class="logos__pic" src="<%=require('./images/grundfos@3x.png')%>" alt="">
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
     <!--footer>
 
 

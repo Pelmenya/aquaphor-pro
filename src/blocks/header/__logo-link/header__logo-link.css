@@ -1,0 +1,6 @@
+.header__logo-link {
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+  padding-bottom: 12px;
+}

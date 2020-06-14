@@ -1,0 +1,19 @@
+@import url(./__semicircle/reliability__semicircle.css);
+@import url(./__root/reliability__root.css);
+@import url(./__wrap/reliability__wrap.css);
+@import url(./__description/reliability__description.css);
+@import url(./__pic/reliability__pic.css);
+@import url(./__shema/reliability__shema.css);
+@import url(./__text/reliability__text.css);
+@import url(./__text/_bold/reliability__text_bold.css);
+
+.reliability {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 1086px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}

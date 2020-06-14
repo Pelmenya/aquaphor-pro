@@ -1,0 +1,18 @@
+.button {
+  border-radius: 5px;
+  border: solid 2px var(--white);
+  font-family: Proxima Nova Rg;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.17px;
+  text-align: justify;
+  color: var(--white);
+  background-color: transparent;
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

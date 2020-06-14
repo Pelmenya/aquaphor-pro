@@ -1,0 +1,7 @@
+.reliability__description {
+  margin-top: 27px;
+  max-width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

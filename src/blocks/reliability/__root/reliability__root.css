@@ -1,0 +1,8 @@
+.reliability__root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1108px;
+  z-index: 1;
+}

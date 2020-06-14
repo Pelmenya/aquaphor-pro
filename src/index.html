@@ -76,37 +76,85 @@
     </header>
     <main class="main">
       <section class="logos">
-        <h1 class="title">профессиональные системы водоочистки</h1>
-        <h2 class="sub-title sub-title_logos">коммерческий обратный осмос от 99,990 руб.</h2>
-        <div class="logos__pictures">
-          <div class="logos__pictures-wrap">
-            <picture>
-              <source media="(max-width: 400px)" srcset="<%=require('./images/nalco.png')%>"/>
-              <source media="(max-width: 800px)" srcset="<%=require('./images/nalco@2x.png')%>"/>
-              <img class="logos__pic" src="<%=require('./images/nalco@3x.png')%>" alt="">
-            </picture>
-            <picture>
-              <source media="(max-width: 400px)" srcset="<%=require('./images/hydroo.png')%>"/>
-              <source media="(max-width: 800px)" srcset="<%=require('./images/hydroo@2x.png')%>"/>
-              <img class="logos__pic" src="<%=require('./images/hydroo@3x.png')%>" alt="">
-            </picture>
-            <picture>
-              <source media="(max-width: 400px)" srcset="<%=require('./images/ge.png')%>"/>
-              <source media="(max-width: 800px)" srcset="<%=require('./images/ge@2x.png')%>"/>
-              <img class="logos__pic" src="<%=require('./images/ge@3x.png')%>" alt="">
-            </picture>
-            <picture>
-              <source media="(max-width: 400px)" srcset="<%=require('./images/abb.png')%>"/>
-              <source media="(max-width: 800px)" srcset="<%=require('./images/abb@2x.png')%>"/>
-              <img class="logos__pic" src="<%=require('./images/abb@3x.png')%>" alt="">
-            </picture>
-            <picture>
-              <source media="(max-width: 400px)" srcset="<%=require('./images/grundfos.png')%>"/>
-              <source media="(max-width: 800px)" srcset="<%=require('./images/grundfos@2x.png')%>"/>
-              <img class="logos__pic" src="<%=require('./images/grundfos@3x.png')%>" alt="">
-            </picture>
+        <div class="logos__bg-pic">
+          <h1 class="title">профессиональные системы водоочистки</h1>
+          <h2 class="sub-title sub-title_logos">коммерческий обратный осмос от 99,990 руб.</h2>
+          <div class="logos__pictures">
+            <div class="logos__pictures-wrap">
+              <picture>
+                <source media="(max-width: 400px)" srcset="<%=require('./images/nalco.png')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/nalco@2x.png')%>"/>
+                <img class="logos__pic" src="<%=require('./images/nalco@3x.png')%>"
+                  alt="Логотип компании Nalco Water">
+              </picture>
+              <picture>
+                <source media="(max-width: 400px)" srcset="<%=require('./images/hydroo.png')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/hydroo@2x.png')%>"/>
+                <img class="logos__pic" src="<%=require('./images/hydroo@3x.png')%>" alt="Логотип компании Hydroo">
+              </picture>
+              <picture>
+                <source media="(max-width: 400px)" srcset="<%=require('./images/ge.png')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/ge@2x.png')%>"/>
+                <img class="logos__pic" src="<%=require('./images/ge@3x.png')%>" alt="Логотип компании GE Power & Water / Water & Process Technologies">
+              </picture>
+              <picture>
+                <source media="(max-width: 400px)" srcset="<%=require('./images/abb.png')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/abb@2x.png')%>"/>
+                <img class="logos__pic" src="<%=require('./images/abb@3x.png')%>" alt="Логотип компании ABB">
+              </picture>
+              <picture>
+                <source media="(max-width: 400px)" srcset="<%=require('./images/grundfos.png')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/grundfos@2x.png')%>"/>
+                <img class="logos__pic" src="<%=require('./images/grundfos@3x.png')%>" alt="Логотип компании GRUNDFOS">
+              </picture>
+            </div>
           </div>
         </div>
+      </section>
+      <section class="economy">
+        <h2 class="sub-title">Экономичность</h2>
+        <div class="economy__description">
+          <div class="economy__text">
+            <p class="economy__text-item">
+              Ваша экономия начнется уже с производственных площадей. Наши системы обратного осмоса
+              обладают компактными размерами и эргономичным дизайном.
+              Еще одно предложение нужно придумать сюда.
+            </p>
+            <p class="economy__text-item">
+              С оборудованием <span class="economy__parameter">Aquaphor Professional</span> люди из разных промышленных отраслей могут
+              воплощать самые смелые идеи. Мы готовы усовершенствовать ваше производство с помощью наших систем.
+            </p>
+          </div>
+          <div class="economy__parameters">
+            <div class="economy__parameters-container">
+              <h3 class="title title_economy-parameter">10 лет</h3>
+              <p class="economy__parameter">срок&nbsp;службы&nbsp;систем</p>
+              <h3 class="title title_economy-parameter">95&#37;</h3>
+              <p class="economy__parameter">эффективность&nbsp;систем</p>
+            </div>
+            <div class="economy__parameters-container">
+              <h3 class="title title_economy-parameter">99,7&#37;</h3>
+              <p class="economy__parameter">снижение&nbsp;солесодержания</p>
+              <h3 class="title title_economy-parameter">50&nbsp;м&sup3;&#8260;&nbsp;час</h3>
+              <p class="economy__parameter">производительность</p>
+            </div>
+          </div>
+        </div>
+        <div class="economy__pictures-container">
+          <picture>
+            <source media="(max-width: 400px)" srcset="<%=require('./images/economy.png')%>"/>
+            <source media="(max-width: 800px)" srcset="<%=require('./images/economy@2x.png')%>"/>
+            <img class="economy__big-pic" src="<%=require('./images/economy@3x.png')%>" alt="Система водоочистки">
+          </picture>
+          <picture>
+            <source media="(max-width: 400px)" srcset="<%=require('./images/eu.png')%>"/>
+            <source media="(max-width: 800px)" srcset="<%=require('./images/eu@2x.png')%>"/>
+            <img class="economy__small-pic" src="<%=require('./images/eu@3x.png')%>" alt="Система водоочистки">
+          </picture>
+        </div>
+      </section>
+      <section class="spliter">
+        <h2 class="spliter__title" >Разделитель секций сайта</h2>
       </section>
     </main>
     <!--footer>

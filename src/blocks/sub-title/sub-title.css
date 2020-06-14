@@ -1,7 +1,8 @@
 @import url(../sub-title/_logos/sub-title_logos.css);
 
 .sub-title {
-    background-color: #0049bc;
+  background-color: #0049bc;
+  display: inline-block;
   font-family: Proxima Nova Rg;
   font-size: 48px;
   font-weight: bold;
@@ -11,4 +12,5 @@
   letter-spacing: -0.4px;
   text-align: justify;
   color: var(--white);
+  margin: 0;
 }

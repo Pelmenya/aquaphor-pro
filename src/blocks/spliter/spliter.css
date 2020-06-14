@@ -1,0 +1,7 @@
+@import url(./__title/spliter__title.css);
+
+.spliter {
+  width: 100%;
+  height: 71px;
+  background-color: #1e1e1e;
+}

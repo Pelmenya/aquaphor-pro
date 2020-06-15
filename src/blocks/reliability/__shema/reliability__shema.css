@@ -1,4 +1,6 @@
 .reliability__shema {
   height: 298px;
+  width: 100%;
   margin-bottom: 50px;
+  box-sizing: border-box;
 }

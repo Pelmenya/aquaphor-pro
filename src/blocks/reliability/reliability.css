@@ -6,6 +6,9 @@
 @import url(./__shema/reliability__shema.css);
 @import url(./__text/reliability__text.css);
 @import url(./__text/_bold/reliability__text_bold.css);
+@import url(./__semicircle/_left/reliability__semicircle_left.css);
+@import url(./__pic/_efficiency/reliability__pic_efficiency.css);
+@import url(./__description/_efficiency/reliability__description_efficiency.css);
 
 .reliability {
   position: relative;

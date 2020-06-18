@@ -12,6 +12,10 @@
 @import url(./__shema/_efficiency/reliability__shema_efficiency.css);
 @import url(./__pic/_applications/reliability__pic_applications.css);
 @import url(./__description/_applications/reliability__description_applications.css);
+@import url(./__wrap/_applications/reliability__wrap_applications.css);
+
+
+
 .reliability {
   position: relative;
   overflow: hidden;

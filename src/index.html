@@ -156,37 +156,6 @@
       <section class="spliter">
         <h2 class="spliter__title" >Разделитель секций сайта</h2>
       </section>
-      <section class="reliability">
-        <div class="reliability__semicircle"></div>
-        <div class="reliability__root">
-          <div class="reliability__wrap">
-            <h2 class="sub-title">Надежность</h2>
-            <div class="reliability__description">
-              <p class="reliability__text">
-                Оборудование европейского качества для решения сложных задач. В системах используются
-                только проверенные производители комплектующих с мировым именем. Строгий контроль
-                качества обеспечивает надежность на долгие годы без замены мембран.
-                Все запасные части всегда есть в наличии и поставляются в короткие сроки.
-                <span class="reliability__text reliability__text_bold">Подключайтесь к новому уровню стабильности.</span>
-              </p>
-              <picture>
-                <source media="(max-width: 400px)" srcset="<%=require('./images/aquaphor-apro-m-1000.jpg')%>"/>
-                <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-apro-m-1000@2x.jpg')%>"/>
-                <img class="reliability__shema" src="<%=require('./images/aquaphor-apro-m-1000@3x.jpg')%>" alt="Схема системы водоочистки">
-              </picture>
-              <button class="button">Скачать паспорта изделий</button>
-            </div>
-          </div>
-          <picture>
-            <source media="(max-width: 400px)" srcset="<%=require('./images/reliability.png')%>"/>
-            <source media="(max-width: 800px)" srcset="<%=require('./images/reliability@2x.png')%>"/>
-            <img class="reliability__pic" src="<%=require('./images/reliability@3x.png')%>" alt="Система водоочистки">
-          </picture>
-        </div>
-      </section>
-      <section class="spliter">
-        <h2 class="spliter__title" >Разделитель секций сайта</h2>
-      </section>
       <section class="reliability efficiency">
         <div class="reliability__semicircle reliability__semicircle_left"></div>
         <div class="reliability__root">
@@ -208,9 +177,9 @@
               <picture>
                 <source media="(max-width: 400px)" srcset="<%=require('./images/aquaphor-system-2-shema.jpg')%>"/>
                 <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-system-2-shema@2x.jpg')%>"/>
-                <img class="reliability__shema" src="<%=require('./images/aquaphor-system-2-shema@3x.jpg')%>" alt="Схема системы водоочистки">
+                <img class="reliability__shema reliability__shema_efficiency" src="<%=require('./images/aquaphor-system-2-shema@3x.jpg')%>" alt="Схема системы водоочистки">
               </picture>
-              <button class="button">Реализованные проекты</button>
+              <button class="button button__efficiency">Реализованные проекты</button>
             </div>
           </div>
         </div>
@@ -218,13 +187,82 @@
       <section class="spliter">
         <h2 class="spliter__title" >Разделитель секций сайта</h2>
       </section>
+      <section class="reliability">
+        <div class="reliability__semicircle"></div>
+        <div class="reliability__root">
+          <div class="reliability__wrap">
+            <h2 class="sub-title">Надежность</h2>
+            <div class="reliability__description">
+              <p class="reliability__text">
+                Оборудование европейского качества для решения сложных задач. В системах используются
+                только проверенные производители комплектующих с мировым именем. Строгий контроль
+                качества обеспечивает надежность на долгие годы без замены мембран.
+                Все запасные части всегда есть в наличии и поставляются в короткие сроки.
+                <span class="reliability__text reliability__text_bold">Подключайтесь к новому уровню стабильности.</span>
+              </p>
+              <picture>
+                <source media="(max-width: 400px)" srcset="<%=require('./images/aquaphor-apro-m-1000.jpg')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-apro-m-1000@2x.jpg')%>"/>
+                <img class="reliability__shema" src="<%=require('./images/aquaphor-apro-m-1000@3x.jpg')%>" alt="Схема системы водоочистки">
+              </picture>
+              <a href="http://aquaphor.store/wp-content/uploads/2020/06/APRO-Паспорта.zip" download><button class="button button__reliability">Скачать паспорта изделий</button></a>
+            </div>
+          </div>
+          <picture>
+            <source media="(max-width: 400px)" srcset="<%=require('./images/reliability.png')%>"/>
+            <source media="(max-width: 800px)" srcset="<%=require('./images/reliability@2x.png')%>"/>
+            <img class="reliability__pic" src="<%=require('./images/reliability@3x.png')%>" alt="Система водоочистки">
+          </picture>
+        </div>
+      </section>
+      <section class="spliter">
+        <h2 class="spliter__title">Разделитель секций сайта</h2>
+      </section>
+      <section class="reliability applications">
 
+        <div class="reliability__root">
+          <div class="applications__container">
+            <div class="applications__circle-bg"></div>
+            <select class="applications__select">
+              <option class="applications__option" value="1">Сельское&nbsp;хозяйство&nbsp;&nbsp;&nbsp;</option>
+              <option class="applications__option" value="2">Мики Маус</option>
+              <option class="applications__option" value="3">Бобо</option>
+              <option class="applications__option" value="4">Ми-ми-мишки</option>
+            </select>
+            <picture class="applications__pic-container">
+              <source media="(max-width: 400px)" srcset="<%=require('./images/farming.png')%>"/>
+              <source media="(max-width: 800px)" srcset="<%=require('./images/farming@2x.png')%>"/>
+              <img class="reliability__pic reliability__pic_applications" src="<%=require('./images/farming@3x.png')%>" alt="Система водоочистки">
+            </picture>
+
+              <button class="button button__applications">Узнать подробнее</button>
+          </div>
+
+          <div class="reliability__wrap">
+            <h2 class="sub-title">Универсальность</h2>
+            <div class="reliability__description reliability__description_applications">
+              <p class="reliability__text">
+                Комплексные решения и широкий ассортимент оборудования для решения ваших задач.
+                Контроль и реализация на всех стадиях проекта.
+              </p>
+              <p class="reliability__text">
+                Наше оборудование не только эстетично выглядит, но и справляется с водой любого
+                уровня загрязнения и жесткости. Мы обеспечиваем обслуживание на всем сроке службы.адач.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="spliter">
+        <h2 class="spliter__title">Разделитель секций сайта</h2>
+      </section>
     </main>
     <!--footer>
 
 
     </footer-->
   </div>
+  </script>
   <script src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
 </body>
 </html>

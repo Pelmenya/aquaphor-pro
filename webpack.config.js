@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -6,8 +7,9 @@ const webpack = require('webpack');
 const cssnano = require('cssnano');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-const isDev = process.env.NODE_ENV === 'development';
+const { SourceMapDevToolPlugin } = webpack;
 
+const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
   entry: {
@@ -27,15 +29,18 @@ module.exports = {
         },
       },
       {
+        test: /\.js$/,
+        enforce: 'pre',
+        use: ['source-map-loader'],
+      },
+      {
         test: /\.css$/i,
         use: [
           isDev
             ? 'style-loader'
             : {
               loader: MiniCssExtractPlugin.loader,
-              options: {
-                publicPath: '../',
-              },
+              options: { publicPath: '../' },
             },
           'css-loader',
           'postcss-loader',
@@ -57,8 +62,8 @@ module.exports = {
               },
               pngquant: {
                 quality: [
-                  0.7,
-                  0.9,
+                  0.4,
+                  0.6,
                 ],
                 speed: 4,
               },
@@ -88,7 +93,6 @@ module.exports = {
         'index',
       ],
     }),
-
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
       NODE_ENV: JSON.stringify(process.env.NODE_ENV),
@@ -102,6 +106,12 @@ module.exports = {
         ],
       },
       canPrint: true,
+    }),
+    new Dotenv({
+      path: path.resolve(__dirname, '.env'),
+    }),
+    new SourceMapDevToolPlugin({
+      filename: '[file].map',
     }),
   ],
 };

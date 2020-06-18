@@ -1,0 +1,11 @@
+.applications__circle-bg {
+  position: absolute;
+  height: 352px;
+  width: 352px;
+  border-radius: 352px;
+  background-color: #fdfdff;
+  position: absolute;
+  top: 129px;
+  left: 60px;
+  z-index: 3;
+}

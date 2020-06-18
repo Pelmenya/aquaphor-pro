@@ -1,0 +1,10 @@
+@import url(./__container/applications__container.css);
+@import url(./__select/applications__select.css);
+@import url(./__circle-bg/applications__circle-bg.css);
+@import url(./__pic-container/applications__pic-container.css);
+@import url(./__option/applications__option.css);
+
+
+.applications {
+  height: 946px;
+}

@@ -3,6 +3,10 @@
   height: 47px;
   padding-right: 45px;
   padding-left: 45px;
-  padding-top: 11px;
+  padding-top: 8px;
   padding-bottom: 12px;
+}
+
+.button.button_applications:hover {
+  background-color: #2a2a2f;
 }

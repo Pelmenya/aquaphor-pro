@@ -1,4 +1,9 @@
 .reliability__text {
   margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.reliability__text:last-of-type {
+  margin-top: 0px;
   margin-bottom: 40px;
 }

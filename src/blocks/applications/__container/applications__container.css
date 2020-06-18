@@ -1,0 +1,12 @@
+.applications__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #0049bc;
+  height: 672px;
+  width: 471px;
+  position: relative;
+  z-index: 2;
+}

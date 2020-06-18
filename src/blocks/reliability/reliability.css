@@ -9,7 +9,9 @@
 @import url(./__semicircle/_left/reliability__semicircle_left.css);
 @import url(./__pic/_efficiency/reliability__pic_efficiency.css);
 @import url(./__description/_efficiency/reliability__description_efficiency.css);
-
+@import url(./__shema/_efficiency/reliability__shema_efficiency.css);
+@import url(./__pic/_applications/reliability__pic_applications.css);
+@import url(./__description/_applications/reliability__description_applications.css);
 .reliability {
   position: relative;
   overflow: hidden;

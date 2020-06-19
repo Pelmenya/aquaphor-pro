@@ -153,12 +153,10 @@
           </picture>
         </div>
       </section>
-      <section class="spliter">
-        <h2 class="spliter__title" >Разделитель секций сайта</h2>
-      </section>
       <section class="reliability efficiency">
+        <div class="spliter spliter__bg-color spliter__bg-pic spliter__bg-pic_black_right"></div>
         <div class="reliability__semicircle reliability__semicircle_left"></div>
-        <div class="reliability__root">
+        <div class="reliability__root reliability__root_efficiency">
           <picture>
             <source media="(max-width: 400px)" srcset="<%=require('./images/aquaphor-system-2.png')%>"/>
             <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-system-2@2x.png')%>"/>
@@ -183,15 +181,13 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="spliter">
-        <h2 class="spliter__title" >Разделитель секций сайта</h2>
+        <div class="spliter spliter__bg-color spliter__bg-pic spliter__bg-pic_grey_left"></div>
       </section>
       <section class="reliability">
-        <div class="reliability__semicircle"></div>
+        <div class="reliability__semicircle reliability__semicircle_right"></div>
         <div class="reliability__root">
           <div class="reliability__wrap">
-            <h2 class="sub-title">Надежность</h2>
+            <h2 class="sub-title sub-title_reliability">Надежность</h2>
             <div class="reliability__description">
               <p class="reliability__text">
                 Оборудование европейского качества для решения сложных задач. В системах используются
@@ -205,7 +201,7 @@
                 <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-apro-m-1000@2x.jpg')%>"/>
                 <img class="reliability__shema" src="<%=require('./images/aquaphor-apro-m-1000@3x.jpg')%>" alt="Схема системы водоочистки">
               </picture>
-              <a href="http://aquaphor.store/wp-content/uploads/2020/06/APRO-Паспорта.zip" download><button class="button button__reliability">Скачать паспорта изделий</button></a>
+              <a  class="button button__reliability" href="http://aquaphor.store/wp-content/uploads/2020/06/APRO-Паспорта.zip" download>Скачать паспорта изделий</a>
             </div>
           </div>
           <picture>
@@ -215,10 +211,8 @@
           </picture>
         </div>
       </section>
-      <section class="spliter">
-        <h2 class="spliter__title">Разделитель секций сайта</h2>
-      </section>
       <section class="reliability applications">
+        <div class="spliter spliter__bg-color spliter__bg-pic spliter__bg-pic_black_left"></div>
         <div class="reliability__root">
           <div class="applications__container">
             <div class="applications__circle-bg"></div>
@@ -312,16 +306,12 @@
           </div>
         </div>
       </section>
-      <section class="spliter">
-        <h2 class="spliter__title">Разделитель секций сайта</h2>
-      </section>
     </main>
     <!--footer>
 
 
     </footer-->
   </div>
-  </script>
   <script src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
 </body>
 </html>

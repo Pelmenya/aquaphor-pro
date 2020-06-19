@@ -1,0 +1,7 @@
+.spliter__bg-pic_black_left {
+  background-image: url(../../../../images/black_left.png);
+  background-color: transparent;
+  position: absolute;
+  top: -145px;
+  left: 0;
+}

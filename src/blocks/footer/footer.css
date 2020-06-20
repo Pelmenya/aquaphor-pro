@@ -1,0 +1,12 @@
+@import url(./__col/footer__col.css);
+@import url(./__company-description/footer__company-description.css);
+@import url(./__link/footer__link.css);
+@import url(./__title/footer__title.css);
+
+.footer {
+  width: 100%;
+  max-width: 1108px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}

@@ -15,5 +15,8 @@
   -moz-osx-font-smoothing: grayscale;
   max-width: 1440px;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 

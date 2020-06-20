@@ -1,3 +1,4 @@
+@import url(./__container-section/applications__container-section.css);
 @import url(./__container/applications__container.css);
 @import url(./__select/applications__select.css);
 @import url(./__circle-bg/applications__circle-bg.css);
@@ -10,4 +11,7 @@
 .applications {
   height: 1015px;
   background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

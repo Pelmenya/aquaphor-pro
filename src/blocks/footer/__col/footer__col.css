@@ -1,5 +1,5 @@
-.reliability__wrap {
+.footer__col {
   display: flex;
   flex-direction: column;
-  z-index: 2;
+  max-width: 25%;
 }

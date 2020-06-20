@@ -1,0 +1,5 @@
+.spliter__bg-pic_mix {
+  background-color: #1e1e1e;
+  background-image: url(../../../../images/grey_left.png),
+    url(../../../../images/grey_bold_right.png);
+}

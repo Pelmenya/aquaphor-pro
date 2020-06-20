@@ -1,5 +1,7 @@
 .applications__select {
-  margin-top: 56px;
+  margin-top: 46px;
+  margin-bottom: 59px;
+  padding: 0;
   font-family: Proxima Nova Rg;
   font-size: 36px;
   font-weight: bold;
@@ -11,8 +13,6 @@
   text-align: center;
   color: var(--white);
   background-color: #0049bc;
-  padding-top: 18px;
-  padding-bottom: 18px;
   border: 0;
   -webkit-appearance: none;
   -moz-appearance: none;

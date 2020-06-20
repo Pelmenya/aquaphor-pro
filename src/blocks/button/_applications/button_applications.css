@@ -1,12 +1,15 @@
 .button.button_applications {
-  margin-bottom: 67px;
   height: 47px;
   padding-right: 45px;
   padding-left: 45px;
   padding-top: 8px;
   padding-bottom: 12px;
+  color: #0049bc;
+  background-color: var(--white);
+  margin-top: 40px;
 }
 
 .button.button_applications:hover {
-  background-color: #2a2a2f;
+  color: var(--white);
+  background-color: #0049bc;
 }

@@ -1,3 +1,7 @@
 .reliability__wrap_applications {
-  height: 672px;
+}
+
+.reliability__wrap_applications:first-of-type {
+  margin-right: 123px;
+  margin-left: 104px;
 }

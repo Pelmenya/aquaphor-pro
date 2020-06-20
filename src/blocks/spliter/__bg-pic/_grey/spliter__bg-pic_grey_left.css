@@ -1,0 +1,7 @@
+.spliter__bg-pic_grey_left {
+  background-image: url(../../../../images/grey_left.png);
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

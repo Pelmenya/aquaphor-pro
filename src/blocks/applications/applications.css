@@ -3,8 +3,11 @@
 @import url(./__circle-bg/applications__circle-bg.css);
 @import url(./__pic-container/applications__pic-container.css);
 @import url(./__option/applications__option.css);
-
+@import url(./__logos/applications__logos.css);
+@import url(./__picture/applications__picture.css);
+@import url(./__logo/applications__logo.css);
 
 .applications {
-  height: 946px;
+  height: 1015px;
+  background-color: #1e1e1e;
 }

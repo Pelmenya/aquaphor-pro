@@ -153,12 +153,10 @@
           </picture>
         </div>
       </section>
-      <section class="spliter">
-        <h2 class="spliter__title" >Разделитель секций сайта</h2>
-      </section>
       <section class="reliability efficiency">
+        <div class="spliter spliter__bg-color spliter__bg-pic spliter__bg-pic_black_right"></div>
         <div class="reliability__semicircle reliability__semicircle_left"></div>
-        <div class="reliability__root">
+        <div class="reliability__root reliability__root_efficiency">
           <picture>
             <source media="(max-width: 400px)" srcset="<%=require('./images/aquaphor-system-2.png')%>"/>
             <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-system-2@2x.png')%>"/>
@@ -183,15 +181,13 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="spliter">
-        <h2 class="spliter__title" >Разделитель секций сайта</h2>
+        <div class="spliter spliter__bg-color spliter__bg-pic spliter__bg-pic_grey_left"></div>
       </section>
       <section class="reliability">
-        <div class="reliability__semicircle"></div>
+        <div class="reliability__semicircle reliability__semicircle_right"></div>
         <div class="reliability__root">
           <div class="reliability__wrap">
-            <h2 class="sub-title">Надежность</h2>
+            <h2 class="sub-title sub-title_reliability">Надежность</h2>
             <div class="reliability__description">
               <p class="reliability__text">
                 Оборудование европейского качества для решения сложных задач. В системах используются
@@ -205,7 +201,7 @@
                 <source media="(max-width: 800px)" srcset="<%=require('./images/aquaphor-apro-m-1000@2x.jpg')%>"/>
                 <img class="reliability__shema" src="<%=require('./images/aquaphor-apro-m-1000@3x.jpg')%>" alt="Схема системы водоочистки">
               </picture>
-              <a href="http://aquaphor.store/wp-content/uploads/2020/06/APRO-Паспорта.zip" download><button class="button button__reliability">Скачать паспорта изделий</button></a>
+              <a  class="button button__reliability" href="http://aquaphor.store/wp-content/uploads/2020/06/APRO-Паспорта.zip" download>Скачать паспорта изделий</a>
             </div>
           </div>
           <picture>
@@ -215,46 +211,106 @@
           </picture>
         </div>
       </section>
-      <section class="spliter">
-        <h2 class="spliter__title">Разделитель секций сайта</h2>
-      </section>
       <section class="reliability applications">
+        <h2 class="sub-title sub-title_applications">Универсальность</h2>
+        <div class="spliter spliter__bg-color spliter__bg-pic spliter__bg-pic_black_left"></div>
+        <div class="reliability__root reliability__root_applications">
 
-        <div class="reliability__root">
+
+
+          <select class="applications__select">
+            <option class="applications__option" value="1">Общественное&nbsp;питание&nbsp;&nbsp;&nbsp;</option>
+            <option class="applications__option" value="2">Сельское&nbsp;хозяйство&nbsp;&nbsp;&nbsp;</option>
+            <option class="applications__option" value="3">Промышленность</option>
+            <option class="applications__option" value="4">Фармацевтика</option>
+            <option class="applications__option" value="5">Продукты&nbsp;питания&nbsp;&nbsp;&nbsp;</option>
+          </select>
           <div class="applications__container">
-            <div class="applications__circle-bg"></div>
-            <select class="applications__select">
-              <option class="applications__option" value="1">Сельское&nbsp;хозяйство&nbsp;&nbsp;&nbsp;</option>
-              <option class="applications__option" value="2">Мики Маус</option>
-              <option class="applications__option" value="3">Бобо</option>
-              <option class="applications__option" value="4">Ми-ми-мишки</option>
-            </select>
-            <picture class="applications__pic-container">
-              <source media="(max-width: 400px)" srcset="<%=require('./images/farming.png')%>"/>
-              <source media="(max-width: 800px)" srcset="<%=require('./images/farming@2x.png')%>"/>
-              <img class="reliability__pic reliability__pic_applications" src="<%=require('./images/farming@3x.png')%>" alt="Система водоочистки">
-            </picture>
-
-              <button class="button button__applications">Узнать подробнее</button>
-          </div>
-
-          <div class="reliability__wrap">
-            <h2 class="sub-title">Универсальность</h2>
-            <div class="reliability__description reliability__description_applications">
-              <p class="reliability__text">
-                Комплексные решения и широкий ассортимент оборудования для решения ваших задач.
-                Контроль и реализация на всех стадиях проекта.
-              </p>
-              <p class="reliability__text">
-                Наше оборудование не только эстетично выглядит, но и справляется с водой любого
-                уровня загрязнения и жесткости. Мы обеспечиваем обслуживание на всем сроке службы.адач.
-              </p>
+            <div class="reliability__wrap reliability__wrap_applications">
+              <div class="applications__circle-bg"></div>
+              <picture class="applications__pic-container">
+                <source media="(max-width: 400px)" srcset="<%=require('./images/farming.png')%>"/>
+                <source media="(max-width: 800px)" srcset="<%=require('./images/farming@2x.png')%>"/>
+                <img class="reliability__pic reliability__pic_applications" src="<%=require('./images/farming@3x.png')%>" alt="Система водоочистки">
+              </picture>
             </div>
+              <div class="reliability__wrap reliability__wrap_applications">
+                <div class="reliability__description reliability__description_applications">
+                  <p class="reliability__text">
+                    Комплексные решения и широкий ассортимент оборудования для решения ваших задач.
+                    Контроль и реализация на всех стадиях проекта.
+                  </p>
+                  <p class="reliability__text reliability__text_application-last">
+                    Наше оборудование не только эстетично выглядит, но и справляется с водой любого
+                    уровня загрязнения и жесткости. Мы обеспечиваем обслуживание на всем сроке службы.адач.
+                  </p>
+                  <div class="applications__logos">
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/dodo.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/dodo@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/dodo@3x.png')%>" alt="ДоДо пица">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/mac.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/mac@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/mac@3x.png')%>" alt="МакДональдс">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/kfs.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/kfs@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/kfs@3x.png')%>" alt="КФС">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/starbucks.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/starbucks@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/starbucks@3x.png')%>" alt="Старбакс">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/burgerking.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/burgerking@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/burgerking@3x.png')%>" alt="Бургер Кинг">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/choko.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/choko@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/choko@3x.png')%>" alt="Кофейня Шоколадница">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/p.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/p@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/p@3x.png')%>" alt="Полли">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/ashan.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/ashan@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/ashan@3x.png')%>" alt="Ашан">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/dominos.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/dominos@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/dominos@3x.png')%>" alt="Доминос пица">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/ilimo.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/ilimo@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/ilimo@3x.png')%>" alt="Илимо">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/mac.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/mac@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/mac@3x.png')%>" alt="MacDonalds">
+                    </picture>
+                    <picture class="applications__picture">
+                      <source media="(max-width: 400px)" srcset="<%=require('./images/kfs.png')%>"/>
+                      <source media="(max-width: 800px)" srcset="<%=require('./images/kfs@2x.png')%>"/>
+                      <img class="applications__logo" src="<%=require('./images/kfs@3x.png')%>" alt="KFS">
+                    </picture>
+                  </div>
+                </div>
+              </div>
           </div>
+          <button class="button button_applications">Узнать подробнее</button>
         </div>
-      </section>
-      <section class="spliter">
-        <h2 class="spliter__title">Разделитель секций сайта</h2>
       </section>
     </main>
     <!--footer>
@@ -262,7 +318,6 @@
 
     </footer-->
   </div>
-  </script>
   <script src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
 </body>
 </html>

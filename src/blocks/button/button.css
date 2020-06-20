@@ -1,4 +1,4 @@
-@import url(./__applications/button__applications.css);
+@import url(./_applications/button_applications.css);
 
 .button {
   border-radius: 5px;
@@ -18,6 +18,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
   outline: none;
+  text-decoration: none;
   cursor: pointer;
 }
 

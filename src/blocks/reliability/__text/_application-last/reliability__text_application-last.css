@@ -1,0 +1,8 @@
+.reliability__text_application-last {
+  margin-bottom: 23px;
+}
+
+.reliability__text_application-last:last-of-type{
+    margin-bottom: 23px;
+  
+}

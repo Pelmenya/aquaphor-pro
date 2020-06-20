@@ -1,7 +1,8 @@
 .reliability__semicircle_left {
-  position: absolute;
-  width: 1198px;
-  height: 1198px;
-  top: -71px;
-  left: -626px;
+  width: 1157px;
+  height: 1157px;
+  top: 47px;
+  left: -531px;
+  z-index: 1;
+  background-image: linear-gradient(180deg, #0049bc 6%, #0080df 89%, #007ede 65%);
 }

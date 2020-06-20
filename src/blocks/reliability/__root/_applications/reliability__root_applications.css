@@ -1,0 +1,9 @@
+.reliability__root_applications {
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content:initial;
+  border-radius: 10px;
+  background-color: #0049bc;
+  height: 672px;
+}

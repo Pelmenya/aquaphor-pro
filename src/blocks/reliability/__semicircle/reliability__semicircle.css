@@ -1,10 +1,4 @@
 .reliability__semicircle {
   position: absolute;
-  width: 1228px;
-  height: 1228px;
-  border-radius: 768px;
-  background-color: #0049bc;
-  top: -71px;
-  right: -626px;
-  z-index: 0;
+  border-radius: 100%;
 }

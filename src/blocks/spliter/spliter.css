@@ -1,7 +1,11 @@
-@import url(./__title/spliter__title.css);
+@import url(./__bg-color/spliter__bg-color.css);
+@import url(./__bg-pic/spliter__bg-pic.css);
+@import url(./__bg-pic/_black/spliter__bg-pic_black_left.css);
+@import url(./__bg-pic/_black/spliter__bg-pic_black_right.css);
+@import url(./__bg-pic/_grey/spliter__bg-pic_grey_left.css);
 
 .spliter {
   width: 100%;
-  height: 71px;
-  background-color: #1e1e1e;
+  height: 145px;
+  z-index: 1;
 }

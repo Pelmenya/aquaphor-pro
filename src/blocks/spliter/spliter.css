@@ -3,6 +3,7 @@
 @import url(./__bg-pic/_black/spliter__bg-pic_black_left.css);
 @import url(./__bg-pic/_black/spliter__bg-pic_black_right.css);
 @import url(./__bg-pic/_grey/spliter__bg-pic_grey_left.css);
+@import url(./__bg-pic/_mix/spliter__bg-pic_mix.css);
 
 .spliter {
   width: 100%;

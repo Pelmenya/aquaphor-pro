@@ -2,6 +2,7 @@
 @import url(./__pic/logos__pic.css);
 @import url(./__pictures/logos__pictures.css);
 @import url(./__pictures-wrap/logos__pictures-wrap.css);
+@import url(./__play/logos__play.css);
 
 .logos {
   width: 100%;

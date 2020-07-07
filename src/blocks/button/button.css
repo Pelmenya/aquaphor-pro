@@ -1,3 +1,5 @@
+@import url(./__efficiency/button__efficiency.css);
+@import url(./__reliability/button__reliability.css);
 @import url(./_applications/button_applications.css);
 
 .button {

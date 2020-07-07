@@ -1,5 +1,5 @@
 import './pages/index.css';
-import Email from './js/smtp';
+// import Email from './js/smtp';
 
 /* function ddd() {
   const efficiencyBtn = document.querySelector('.button__efficiency');

@@ -1,0 +1,4 @@
+.button.button__efficiency:hover {
+  background-color: var(--white);
+  color: #1e1e1e;
+}

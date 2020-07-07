@@ -20,3 +20,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Bold.woff') format('woff'),
+		url('ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+

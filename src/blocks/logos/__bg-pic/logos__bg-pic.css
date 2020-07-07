@@ -8,4 +8,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

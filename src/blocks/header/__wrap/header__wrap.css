@@ -1,6 +1,8 @@
 .header__wrap {
   display: flex;
   width: calc(100% - 332px);
+  max-width: calc( 1440px - 332px);
   justify-content:space-between;
   align-items: center;
+
 }

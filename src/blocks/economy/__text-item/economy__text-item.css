@@ -4,8 +4,13 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.2;
+  line-height: 1.3;
   letter-spacing: -0.17px;
   text-align: justify;
   color: var(--white);
 }
+
+.economy__text-item:last-of-type {
+  margin-bottom: 0px;
+}
+

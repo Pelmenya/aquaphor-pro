@@ -1,0 +1,12 @@
+.logos__play {
+  height: 84px;
+  width: 84px;
+  margin-top: 96px;
+  cursor: pointer;
+  fill:#fff;
+  transition: transform .5s;
+}
+
+.logos__play:hover {
+  transform: scale(1.2);
+}

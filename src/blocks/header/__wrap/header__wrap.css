@@ -4,5 +4,25 @@
   max-width: calc( 1440px - 332px);
   justify-content:space-between;
   align-items: center;
+}
 
+@media screen and (max-width: 1050px) {
+  .header__wrap {
+    width: calc(100% - 120px);
+    max-width: calc( 1050px - 120px);
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  .header__wrap {
+    width: calc(100% - 60px);
+    max-width: calc( 850px - 60px);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__wrap {
+    width: calc(100% - 40px);
+  }
 }

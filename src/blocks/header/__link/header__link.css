@@ -16,3 +16,10 @@
 }
 
 
+@media screen and (max-width: 750px) {
+  .header__link {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+}
+

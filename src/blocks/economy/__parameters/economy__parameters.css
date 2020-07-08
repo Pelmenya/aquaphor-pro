@@ -3,3 +3,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1250px) {
+  .economy__parameters {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+  }
+}

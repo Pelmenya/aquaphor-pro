@@ -7,3 +7,20 @@
   height: 23px;
 }
 
+@media screen and (max-width: 850px) {
+  .logos__pic {
+    height: 15px;
+  }
+  .logos__pic:first-of-type {
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .logos__pic {
+    height: 10px;
+  }
+  .logos__pic:first-of-type {
+    height: 10px;
+  }
+}

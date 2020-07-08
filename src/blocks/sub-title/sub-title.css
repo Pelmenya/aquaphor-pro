@@ -16,3 +16,9 @@
   color: var(--white);
   margin: 0;
 }
+
+@media screen and (max-width: 570px) {
+  .sub-title {
+    font-size: 24px;
+  }
+}

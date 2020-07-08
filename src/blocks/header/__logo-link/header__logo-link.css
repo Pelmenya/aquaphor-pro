@@ -4,3 +4,10 @@
   padding-top: 13px;
   padding-bottom: 12px;
 }
+
+@media screen and (max-width: 560px) {
+  .header__logo-link {
+    padding-top: 0px;
+    padding-bottom:0px;
+    }
+}

@@ -8,3 +8,21 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+@media screen and (max-width: 850px) {
+  .logos__pictures-wrap {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  .logos__pictures-wrap {
+    padding-top: 22px;
+    padding-bottom: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}

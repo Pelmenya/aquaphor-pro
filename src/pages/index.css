@@ -16,19 +16,6 @@
 @import url(../blocks/applications/applications.css);
 @import url(../blocks/footer/footer.css);
 
-option.applications__option {
-  font-family: Proxima Nova Rg, sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.3px;
-  text-align: justify;
-  color: var(--white);
-  cursor: pointer;
-}
-
 
 
 :root {

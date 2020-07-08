@@ -1,0 +1,7 @@
+.header__gamburger-line-one {
+  width: 30px;
+  height: 3px;
+  background-color: var(--white);
+  margin: 6px 0;
+  transition: 0.4s;
+}

@@ -2,3 +2,9 @@
   text-transform: initial;
   font-size: 48px;
 }
+
+@media screen and (max-width: 570px) {
+  .title.title_economy-parameter_text {
+    font-size: 30px;
+  }
+}

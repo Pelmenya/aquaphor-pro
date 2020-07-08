@@ -4,3 +4,29 @@
   position: absolute;
   height: 143px;
 }
+
+@media screen and (max-width: 1080px) {
+  .economy__small-pic {
+    top: 360px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .economy__small-pic {
+    top: 280px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .economy__small-pic {
+    top: 220px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .economy__small-pic {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+.economy__pic-mobil {
+  display: none;
+  height: 313px;
+}
+
+@media screen and (max-width: 570px) {
+  .economy__pic-mobil {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .economy__pic-mobil {
+    height: 290px;
+  }
+}

@@ -1,0 +1,14 @@
+
+.header__gamburger-change .header__gamburger-line-one{
+  -webkit-transform: rotate(-45deg) translate(-7px, 3px) ;
+  transform: rotate(-45deg) translate(-7px, 3px) ;
+}
+
+.header__gamburger-change .header__gamburger-line-two {
+  opacity: 0;
+}
+
+.header__gamburger-change .header__gamburger-line-three {
+  -webkit-transform: rotate(45deg) translate(-9px, -6px) ;
+  transform: rotate(45deg) translate(-9px, -6px) ;
+}

@@ -1,3 +1,11 @@
 .economy__parameter {
   font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 570px) {
+  .economy__parameter {
+    font-size: 12px;
+  }
 }

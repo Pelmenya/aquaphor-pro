@@ -6,3 +6,9 @@
 .header__logo:hover{
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 560px) {
+  .header__logo {
+    height: 40px;
+  }
+}

@@ -1,0 +1,11 @@
+.header__gamburger {
+  cursor: pointer;
+  display: none;
+}
+
+
+@media screen and (max-width: 560px) {
+  .header__gamburger {
+    display: inline-block;
+  }
+}

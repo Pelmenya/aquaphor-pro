@@ -1,6 +1,7 @@
+
 .applications__option {
+  font-size: 28px;
   font-family: Proxima Nova Rg, sans-serif;
-  font-size: 36px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -8,4 +9,8 @@
   letter-spacing: -0.3px;
   text-align: justify;
   color: var(--white);
+  cursor: pointer;
+  text-align: center;
+  text-align-last: center;
+  background-color: #2a2a2f;
 }

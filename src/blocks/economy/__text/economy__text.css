@@ -2,3 +2,19 @@
   max-width: 554px;
   margin-right: 46px;
 }
+
+@media screen and (max-width: 1250px) {
+  .economy__text {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+  .economy__text {
+    margin-bottom: 13px;
+  }
+}

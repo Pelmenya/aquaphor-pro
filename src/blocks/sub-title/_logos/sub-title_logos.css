@@ -3,3 +3,18 @@
   margin: 0;
   margin-top: 18px;
 }
+
+
+@media screen and (max-width: 850px) {
+  .sub-title.sub-title_logos {
+    font-size: 28px;
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sub-title.sub-title_logos {
+    font-size: 14px;
+    margin-top: 21px;
+  }
+}

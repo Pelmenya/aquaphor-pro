@@ -1,4 +1,13 @@
 .title.title_economy-parameter {
-   text-transform: none;
-   margin: 0;
+  text-transform: none;
+  line-height: 0.9;
+  margin: 0;
+}
+
+@media screen and (max-width: 570px) {
+  .title.title_economy-parameter {
+    font-size: 42px;
+    line-height: 1.2;
+
+  }
 }

@@ -1,3 +1,17 @@
 .economy__big-pic {
   height: 562px;
 }
+
+@media screen and (max-width: 1250px) {
+  .economy__big-pic {
+    width: 100%;
+    height: initial;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .economy__big-pic {
+    display: none;
+  }
+}
+

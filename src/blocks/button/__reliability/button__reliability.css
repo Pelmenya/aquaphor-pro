@@ -1,0 +1,4 @@
+.button.button__reliability:hover {
+  background-color: var(--white);
+  color: #2a2a2f;
+}

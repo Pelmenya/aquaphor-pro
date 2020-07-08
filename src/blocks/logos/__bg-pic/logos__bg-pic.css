@@ -8,4 +8,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 850px) {
+  .logos__bg-pic {
+    height: initial;
+  }
 }

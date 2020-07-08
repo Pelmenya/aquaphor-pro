@@ -3,11 +3,16 @@
 @import url(./__links/header__links.css);
 @import url(./__wrap/header__wrap.css);
 @import url(./__link/header__link.css);
+@import url(./__gamburger/header__gamburger.css);
+@import url(./__gamburger-line-one/header__gamburger-line-one.css);
+@import url(./__gamburger-line-two/header__gamburger-line-two.css);
+@import url(./__gamburger-line-three/header__gamburger-line-three.css);
+@import url(./__gamburger-change/header__gamburger-change.css);
+@import url(./__links-mobil/header__links-mobil.css);
 
 .header {
   display: flex;
   width: 100%;
-  max-width: 1440px;
   flex-direction: column;
   align-items: center;
   font-family: Proxima Nova Cn Rg;

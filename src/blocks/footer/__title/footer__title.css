@@ -3,3 +3,9 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 570px) {
+  .footer__title {
+    font-size: 16px;
+  }
+}

@@ -14,13 +14,13 @@
   background-color: #2a2a2f;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1370px) {
   .applications__option {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 850px) {
   .applications__option {
     font-size: 14px;
   }

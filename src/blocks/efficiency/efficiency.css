@@ -3,3 +3,10 @@
   background-color: #1e1e1e;
   z-index: 2;
 }
+
+@media screen and (max-width: 1150px) {
+  .efficiency {
+    height: initial;
+  }
+}
+

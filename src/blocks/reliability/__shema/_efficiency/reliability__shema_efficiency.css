@@ -2,3 +2,19 @@
   height: 224px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1325px) {
+  .reliability__shema_efficiency {
+    height: 150px;
+    width: 390px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .reliability__shema_efficiency {
+    height: 100px;
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}

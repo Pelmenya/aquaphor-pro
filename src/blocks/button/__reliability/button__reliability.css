@@ -2,3 +2,9 @@
   background-color: var(--white);
   color: #2a2a2f;
 }
+
+@media screen and (max-width: 570px) {
+  .button.button__reliability {
+    display: none;
+  }
+}

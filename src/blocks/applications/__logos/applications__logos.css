@@ -4,3 +4,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1150px) {
+  .applications__logos {
+    display: none;
+  }
+}

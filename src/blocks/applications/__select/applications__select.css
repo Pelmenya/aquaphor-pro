@@ -26,3 +26,17 @@
   background-position: right 0 top 53%, 0 0;
   background-size: .65em auto, 100%;
 }
+
+@media screen and (max-width: 850px) {
+  .applications__select {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .applications__select {
+    margin-top: 21px;
+    margin-bottom: 19px;
+    font-size: 24px;
+  }
+}

@@ -9,3 +9,9 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .economy__parameter {
+    font-size: 10px;
+  }
+}

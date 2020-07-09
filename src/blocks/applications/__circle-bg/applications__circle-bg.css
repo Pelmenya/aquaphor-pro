@@ -9,3 +9,21 @@
   left: 61px;
   z-index: 3;
 }
+
+@media screen and (max-width: 1150px) {
+  .applications__circle-bg {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .applications__circle-bg {
+    height: 251px;
+    width: 251px;
+    border-radius: 100%;
+  }
+}

@@ -7,3 +7,11 @@
   margin-top: 0px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 570px) {
+  .reliability__text:last-of-type {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+}
+

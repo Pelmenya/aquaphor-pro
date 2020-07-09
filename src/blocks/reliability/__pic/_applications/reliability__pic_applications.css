@@ -1,5 +1,17 @@
 .reliability__pic_applications {
    height: 370px;
    z-index: 4;
+}
 
+@media screen and (max-width: 1000px) {
+  .reliability__pic_applications {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+  .reliability__pic_applications {
+    height: 274px;
+  }
 }

@@ -6,3 +6,15 @@
   z-index: 1;
   background-image: linear-gradient(180deg, #0049bc 6%, #0080df 89%, #007ede 65%);
 }
+
+@media screen and (max-width: 1325px) {
+  .reliability__semicircle_left {
+    left: -831px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .reliability__semicircle_left {
+    display: none;
+  }
+}

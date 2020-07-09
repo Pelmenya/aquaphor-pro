@@ -2,3 +2,10 @@
   margin-right: 123px;
   margin-left: 104px;
 }
+
+@media screen and (max-width: 1150px) {
+
+  .reliability__wrap_applications:last-of-type {
+    display: none;
+  }
+}

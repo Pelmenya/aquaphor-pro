@@ -12,3 +12,9 @@
     justify-content: space-around;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .economy__parameters {
+    margin-bottom: 57px;
+  }
+}

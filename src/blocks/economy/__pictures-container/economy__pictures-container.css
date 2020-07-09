@@ -5,3 +5,9 @@
   margin-bottom: 155px;
   margin-top: 59px;
 }
+
+@media screen and (max-width: 570px) {
+  .economy__pictures-container {
+    display: none;
+  }
+}

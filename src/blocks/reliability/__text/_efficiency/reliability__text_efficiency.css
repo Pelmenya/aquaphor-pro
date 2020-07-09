@@ -1,0 +1,11 @@
+.reliability__text_efficiency {
+
+}
+
+@media screen and (max-width: 570px) {
+  .reliability__text_efficiency:last-of-type {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+}
+

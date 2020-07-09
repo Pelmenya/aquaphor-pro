@@ -4,7 +4,7 @@
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
   .header__gamburger {
     display: inline-block;
   }

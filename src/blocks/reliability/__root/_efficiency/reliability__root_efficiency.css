@@ -2,3 +2,32 @@
   align-items: center;
   padding-top: 0;
 }
+
+@media screen and (max-width: 1325px) {
+  .reliability__root_efficiency {
+    max-width: initial;
+    width: calc(100% - 120px);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .reliability__root_efficiency {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .reliability__root_efficiency {
+    justify-content: initial;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 60px);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .reliability__root_efficiency {
+    width: calc(100% - 40px);
+  }
+}

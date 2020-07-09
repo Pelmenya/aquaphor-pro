@@ -1,3 +1,21 @@
 .reliability__description_efficiency {
   max-width: 588px;
 }
+
+@media screen and (max-width: 1325px) {
+  .reliability__description_efficiency {
+    max-width: 490px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .reliability__description_efficiency {
+    max-width: initial;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .reliability__description_efficiency {
+    margin-top: 20px;
+  }
+}

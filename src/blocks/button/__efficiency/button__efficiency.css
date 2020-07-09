@@ -2,3 +2,13 @@
   background-color: var(--white);
   color: #1e1e1e;
 }
+
+@media screen and (max-width: 430px) {
+  .button.button__efficiency {
+    height: 36px;
+    width: 229px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0;
+  }
+}

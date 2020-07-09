@@ -1,0 +1,11 @@
+@media screen and (max-width: 850px) {
+  .sub-title.sub-title_efficiency {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .sub-title.sub-title_efficiency {
+    font-size: 24px;
+  }
+}

@@ -1,3 +1,16 @@
 .reliability__pic_efficiency {
-   height: 628px;
- }
+  height: 628px;
+}
+
+@media screen and (max-width: 1325px) {
+  .reliability__pic_efficiency {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .reliability__pic_efficiency {
+    display: none;
+  }
+}
+

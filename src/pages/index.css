@@ -16,7 +16,11 @@
 @import url(../blocks/applications/applications.css);
 @import url(../blocks/footer/footer.css);
 
-
+/*{
+  border: 1px solid red;
+  box-sizing:border-box;
+}
+*/
 
 :root {
   --blue-blue: #164cb5;

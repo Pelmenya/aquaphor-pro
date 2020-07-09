@@ -3,3 +3,14 @@
   flex-direction: column;
   max-width: 25%;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__col {
+    max-width: initial;
+    display: none;
+  }
+  .footer__col:first-of-type {
+    display: flex;
+    align-items: center;
+  }
+}

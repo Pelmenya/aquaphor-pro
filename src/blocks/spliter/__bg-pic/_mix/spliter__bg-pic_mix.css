@@ -3,3 +3,9 @@
   background-image: url(../../../../images/grey_left.png),
     url(../../../../images/grey_bold_right.png);
 }
+
+@media screen and (max-width: 1150px) {
+  .spliter__bg-pic_mix {
+    display: none;
+  }
+}

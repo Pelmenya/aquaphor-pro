@@ -19,13 +19,18 @@
 @import url(./__text/_application-last/reliability__text_application-last.css);
 @import url(./__text/_efficiency/reliability__text_efficiency.css);
 
-
 .reliability {
   position: relative;
   width: 100%;
-  height:1042px;
+  height: 1042px;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 4;
+}
+
+@media screen and (max-width: 1000px) {
+  .reliability {
+    height: initial;
+  }
 }

@@ -1,4 +1,3 @@
-
 .applications__option {
   font-size: 28px;
   font-family: Proxima Nova Rg, sans-serif;
@@ -13,4 +12,16 @@
   text-align: center;
   text-align-last: center;
   background-color: #2a2a2f;
+}
+
+@media screen and (max-width: 850px) {
+  .applications__option {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .applications__option {
+    font-size: 14px;
+  }
 }

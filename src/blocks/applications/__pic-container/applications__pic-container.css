@@ -1,3 +1,9 @@
 .applications__pic-container {
   z-index: 5;
 }
+
+@media screen and (max-width: 1000px) {
+  .reliability__root_applications {
+    z-index: 10;
+  }
+}

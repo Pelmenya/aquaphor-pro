@@ -13,3 +13,13 @@
   color: var(--white);
   background-color: #0049bc;
 }
+
+@media screen and (max-width: 430px) {
+  .button.button_applications {
+    font-size: 12px;
+    height: 36px;
+    width: 179px;
+    text-align: center;
+    padding: 0;
+  }
+}

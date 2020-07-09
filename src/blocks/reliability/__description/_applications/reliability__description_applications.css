@@ -1,4 +1,10 @@
 .reliability__description_applications {
   margin-top: 0;
-   max-width: 548px;
+  max-width: 548px;
+}
+
+@media screen and (max-width: 1150px) {
+  .reliability__description_applications {
+    max-width: 400px;
+  }
 }

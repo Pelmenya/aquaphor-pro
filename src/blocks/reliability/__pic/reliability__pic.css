@@ -2,3 +2,9 @@
   height: 802px;
   z-index: 5;
 }
+
+@media screen and (max-width: 1000px) {
+  .reliability__pic {
+    display: none;
+  }
+}

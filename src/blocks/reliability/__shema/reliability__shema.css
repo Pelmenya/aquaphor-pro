@@ -4,3 +4,27 @@
   margin-bottom: 50px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1325px) {
+  .reliability__shema {
+    height: 150px;
+    width: 390px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .reliability__shema {
+    height: 250px;
+    width: 500px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .reliability__shema {
+    height: 135px;
+    width: 270px;
+    margin-bottom: 0px;
+  }
+}

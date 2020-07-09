@@ -2,9 +2,24 @@
   padding: 0;
   flex-direction: column;
   align-items: center;
-  justify-content:initial;
+  justify-content: initial;
   border-radius: 10px;
   background-color: #0049bc;
   height: 672px;
   width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+  .reliability__root_applications {
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .reliability__root_applications {
+    height: initial;
+    padding-bottom: 30px;
+  }
 }

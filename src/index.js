@@ -22,12 +22,10 @@ import './pages/index.css';
 */
 function main() {
   const headerGamburgerBtn = document.querySelector('.header__gamburger');
-  console.log(headerGamburgerBtn);
-
   headerGamburgerBtn.addEventListener('click', () => {
     headerGamburgerBtn.classList.toggle('header__gamburger-change');
   });
-  /*  const popUp = document.querySelector('.popup.popup-video');
+  const popUp = document.querySelector('.popup.popup-video');
   const logosPlayBtn = document.querySelector('.logos__play');
   const popUpCloseBtn = document.querySelector('.popup__close');
   const popupContentImg = popUp.querySelector('.popup__content_img');
@@ -56,7 +54,6 @@ function main() {
       'https://aquaphor.store/wp-content/uploads/2020/07/AQUAPHOR_Professional.mp4';
     popUp.classList.add('popup_is-opened');
   });
-  */
 }
 
 main();
